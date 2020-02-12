@@ -1,16 +1,7 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>hello bots</title>
-</head>
-<body>
-<style>
-div {
- background-image: url('img_girl.jpg');
-}
-</style>
-<a href="yeeeet.now.sh"><button style="color:red">my website</button></a>
-</body>
-</html>
+var button = document.createElement("button");
+button.innerHTML = "Do Something";
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+button.addEventListener ("click", function() {
+  alert("did something");
+});
